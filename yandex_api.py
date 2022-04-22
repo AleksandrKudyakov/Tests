@@ -1,9 +1,8 @@
 import json
 
-# from yandex import token
 import requests
 apiurl = 'https://cloud-api.yandex.net/v1/disk/resources'
-headers = {'Authorization': 'OAuth ' + "AQAAAAAj3cVMAADLWy-c5Au4oEzEm-t3JaD6b_I"}
+headers = {'Authorization': 'OAuth ' + ""}
 
 
 def createfolder(folder_name):
